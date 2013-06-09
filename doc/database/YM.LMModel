@@ -1,0 +1,166 @@
+<LMModel Align="68" DisplayFlags="0" LineColor="#000000" FillStyle="none" LineWidth="1" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" ModelVersion="1.0" BackgroundColor="#ffffff" FontBold="0" BackgroundImagePlacement="0" FontItalic="0" ModificationDate="2013-05-16T15:42:02" Author="gaoyq" TextFlag="2048" CreationDate="2013-05-16T11:28:15" BackgroundType="0" FontStrikeOut="0" Name="YM" BackgroundStyle="none" Version="2.2" NextOID="17" FontFamily="Aharoni" ><![CDATA[YM projects for my dream.]]><LMEntityNormal width="98" x="285" TextField="2" Align="68" y="41" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="1" height="168" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Code="User" Name="User" NextOID="4" FontFamily="Aharoni" >
+  <sink x="0.367347" y="0.440476" OID="3" />
+  <sink x="0.72449" y="0.690476" OID="1" />
+  <sink x="0.438776" y="0.452381" OID="2" />
+ </LMEntityNormal>
+ <LMEntityNormal width="114" x="673" TextField="2" Align="68" y="67" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="2" height="107" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Code="Role" Name="Role" NextOID="2" FontFamily="Aharoni" >
+  <sink x="0.429825" y="0.476636" OID="1" />
+ </LMEntityNormal>
+ <LMEntityAssociative width="106" x="475" TextField="2" Align="68" y="74" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="3" height="89" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Code="UsersInRole" Name="UsersInRole" NextOID="3" FontFamily="Aharoni" >
+  <sink x="0.537736" y="0.460674" OID="1" />
+  <sink x="0.660377" y="0.494382" OID="2" />
+ </LMEntityAssociative>
+ <LMAssociativeLink BeginCardinality="0,n" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="0" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="4" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" EndOrdinality="1" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="7" NextOID="6" Dependent="0" FontFamily="Aharoni" >
+  <point x="328" y="117" OID="1" SinkObjectOID="1" SinkOID="2" />
+  <point x="545" y="118" OID="2" SinkObjectOID="3" SinkOID="2" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="10" y="10" OID="4" />
+  <EndRoleHandle x="10" y="10" OID="5" />
+ </LMAssociativeLink>
+ <LMAssociativeLink BeginCardinality="0,n" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="0" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="5" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" EndOrdinality="1" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="7" NextOID="6" Dependent="0" FontFamily="Aharoni" >
+  <point x="722" y="118" OID="1" SinkObjectOID="2" SinkOID="1" />
+  <point x="532" y="115" OID="2" SinkObjectOID="3" SinkOID="1" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="10" y="10" OID="4" />
+  <EndRoleHandle x="10" y="10" OID="5" />
+ </LMAssociativeLink>
+ <LMEntityNormal width="114" x="174" TextField="2" Align="68" y="508" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="7" height="178" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="CaseInfo" NextOID="3" FontFamily="Aharoni" >
+  <sink x="0.254386" y="0.460674" OID="1" />
+  <sink x="0.482456" y="0.741573" OID="2" />
+ </LMEntityNormal>
+ <LMEntityNormal width="115" x="527" TextField="2" Align="68" y="512" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="8" height="174" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Diagnosis" NextOID="2" FontFamily="Aharoni" >
+  <sink x="0.617391" y="0.45977" OID="1" />
+ </LMEntityNormal>
+ <LMEntityNormal width="128" x="60" TextField="2" Align="68" y="39" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="9" height="160" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Organization" NextOID="3" FontFamily="Aharoni" >
+  <sink x="0.757812" y="0.4625" OID="1" />
+  <LMAttribute OID="2" >
+   <Uses Class="LMDataItem" Path="16" Name="" />
+  </LMAttribute>
+ </LMEntityNormal>
+ <LMEntityNormal width="95" x="429" TextField="2" Align="68" y="255" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="10" height="147" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="OAuth" NextOID="2" FontFamily="Aharoni" >
+  <sink x="0.442105" y="0.326531" OID="1" />
+ </LMEntityNormal>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="11" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="Aharoni" >
+  <point x="471" y="303" OID="1" SinkObjectOID="10" SinkOID="1" />
+  <point x="356" y="157" OID="2" SinkObjectOID="1" SinkOID="1" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="10" y="10" OID="4" />
+  <EndRoleHandle x="10" y="10" OID="5" />
+ </LMRelationship>
+ <LMEntityNormal width="132" x="170" TextField="2" Align="68" y="810" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="12" height="164" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Slide" NextOID="2" FontFamily="Aharoni" >
+  <sink x="0.454545" y="0.365854" OID="1" />
+ </LMEntityNormal>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="13" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="Aharoni" >
+  <point x="230" y="870" OID="1" SinkObjectOID="12" SinkOID="1" />
+  <point x="229" y="640" OID="2" SinkObjectOID="7" SinkOID="2" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="10" y="10" OID="4" />
+  <EndRoleHandle x="10" y="10" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="14" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="Aharoni" >
+  <point x="598" y="592" OID="1" SinkObjectOID="8" SinkOID="1" />
+  <point x="203" y="590" OID="2" SinkObjectOID="7" SinkOID="1" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="10" y="10" OID="4" />
+  <EndRoleHandle x="10" y="10" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="15" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="Aharoni" >
+  <point x="321" y="115" OID="1" SinkObjectOID="1" SinkOID="3" />
+  <point x="157" y="113" OID="2" SinkObjectOID="9" SinkOID="1" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="10" y="10" OID="4" />
+  <EndRoleHandle x="10" y="10" OID="5" />
+ </LMRelationship>
+ <Validation>
+  <Rule Name="Model name missing" Value="Error" />
+  <Rule Name="Model comment missing" Value="Warning" />
+  <Rule Name="Model description missing" Value="Information" />
+  <Rule Name="Model author missing" Value="Warning" />
+  <Rule Name="Rule name missing" Value="Error" />
+  <Rule Name="Rule code missing" Value="Warning" />
+  <Rule Name="Rule comment missing" Value="Warning" />
+  <Rule Name="Rule description missing" Value="Information" />
+  <Rule Name="Rule name duplicate" Value="Error" />
+  <Rule Name="Rule code duplicate" Value="Error" />
+  <Rule Name="Rule not used" Value="Warning" />
+  <Rule Name="Domain name missing" Value="Error" />
+  <Rule Name="Domain code missing" Value="Warning" />
+  <Rule Name="Domain comment missing" Value="Warning" />
+  <Rule Name="Domain description missing" Value="Information" />
+  <Rule Name="Domain name duplicate" Value="Error" />
+  <Rule Name="Domain code duplicate" Value="Error" />
+  <Rule Name="Domain type missing" Value="Error" />
+  <Rule Name="Domain type unknown" Value="Error" />
+  <Rule Name="Domain not used" Value="Warning" />
+  <Rule Name="Data Item name missing" Value="Error" />
+  <Rule Name="Data Item code missing" Value="Warning" />
+  <Rule Name="Data Item comment missing" Value="Warning" />
+  <Rule Name="Data Item description missing" Value="Information" />
+  <Rule Name="Data Item name duplicate" Value="Error" />
+  <Rule Name="Data Item code duplicate" Value="Error" />
+  <Rule Name="Data Item type missing" Value="Error" />
+  <Rule Name="Data Item type unknown" Value="Error" />
+  <Rule Name="Data Item not used" Value="Warning" />
+  <Rule Name="Entity name missing" Value="Error" />
+  <Rule Name="Entity code missing" Value="Warning" />
+  <Rule Name="Entity comment missing" Value="Warning" />
+  <Rule Name="Entity description missing" Value="Information" />
+  <Rule Name="Entity name duplicate" Value="Error" />
+  <Rule Name="Entity code duplicate" Value="Error" />
+  <Rule Name="Entity attribute missing" Value="Error" />
+  <Rule Name="Entity primary identifier missing" Value="Warning" />
+  <Rule Name="Association name missing" Value="Error" />
+  <Rule Name="Association code missing" Value="Warning" />
+  <Rule Name="Association comment missing" Value="Warning" />
+  <Rule Name="Association description missing" Value="Information" />
+  <Rule Name="Association name duplicate" Value="Error" />
+  <Rule Name="Association code duplicate" Value="Error" />
+  <Rule Name="Association link missing" Value="Error" />
+  <Rule Name="Inheritance name missing" Value="Error" />
+  <Rule Name="Inheritance code missing" Value="Warning" />
+  <Rule Name="Inheritance comment missing" Value="Warning" />
+  <Rule Name="Inheritance description missing" Value="Information" />
+  <Rule Name="Inheritance name duplicate" Value="Warning" />
+  <Rule Name="Inheritance code duplicate" Value="Warning" />
+  <Rule Name="Inheritance link missing" Value="Error" />
+  <Rule Name="Relationship name missing" Value="Error" />
+  <Rule Name="Relationship code missing" Value="Warning" />
+  <Rule Name="Relationship comment missing" Value="Warning" />
+  <Rule Name="Relationship description missing" Value="Information" />
+  <Rule Name="Relationship name duplicate" Value="Warning" />
+  <Rule Name="Relationship code duplicate" Value="Warning" />
+  <Rule Name="Relationship child entity missing" Value="Error" />
+  <Rule Name="Relationship parent entity missing" Value="Error" />
+  <Rule Name="Association Link name missing" Value="Error" />
+  <Rule Name="Association Link code missing" Value="Warning" />
+  <Rule Name="Association Link comment missing" Value="Warning" />
+  <Rule Name="Association Link description missing" Value="Information" />
+  <Rule Name="Association Link name duplicate" Value="Warning" />
+  <Rule Name="Association Link code duplicate" Value="Warning" />
+  <Rule Name="Association Link entity missing" Value="Error" />
+  <Rule Name="Association Link association missing" Value="Error" />
+  <Rule Name="Inheritance Link name missing" Value="" />
+  <Rule Name="Inheritance Link code missing" Value="" />
+  <Rule Name="Inheritance Link comment missing" Value="" />
+  <Rule Name="Inheritance Link description missing" Value="" />
+  <Rule Name="Inheritance Link name duplicate" Value="" />
+  <Rule Name="Inheritance Link code duplicate" Value="" />
+  <Rule Name="Inheritance Link entity missing" Value="Error" />
+  <Rule Name="Inheritance Link inheritance missing" Value="Error" />
+  <Rule Name="Attribute name missing" Value="Error" />
+  <Rule Name="Attribute code missing" Value="Warning" />
+  <Rule Name="Attribute comment missing" Value="Warning" />
+  <Rule Name="Attribute description missing" Value="Information" />
+  <Rule Name="Attribute is indentifier but not mandatory" Value="Error" />
+  <Rule Name="Attribute name duplicate" Value="Error" />
+  <Rule Name="Attribute code duplicate" Value="Error" />
+  <Rule Name="Identifier name missing" Value="Error" />
+  <Rule Name="Identifier code missing" Value="Warning" />
+  <Rule Name="Identifier comment missing" Value="Warning" />
+  <Rule Name="Identifier description missing" Value="Information" />
+  <Rule Name="Identifier name duplicate" Value="Error" />
+  <Rule Name="Identifier code duplicate" Value="Error" />
+  <Rule Name="Identifier attribute missing" Value="Error" />
+ </Validation>
+ <LMDataItem OID="16" />
+</LMModel>
