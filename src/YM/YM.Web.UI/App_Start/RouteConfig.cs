@@ -27,7 +27,8 @@ namespace YM.Web.UI
         /// </summary>
         /// <param name="routes"></param>
         public static void ConfigureServiceRoutes(IServiceRoutes routes)
-        { 
+        {
+            //routes.Add<YM.Service.SlideRequest>("/slide");
         }
     }
 }

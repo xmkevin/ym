@@ -1,4 +1,5 @@
-﻿using ServiceStack.CacheAccess;
+﻿using ServiceStack.Api.Swagger;
+using ServiceStack.CacheAccess;
 using ServiceStack.CacheAccess.Providers;
 using ServiceStack.Common.Web;
 using ServiceStack.Configuration;
@@ -28,6 +29,8 @@ namespace YM.Web.UI
         {
             //Set JSON web services to return idiomatic JSON camelCase properties
             ServiceStack.Text.JsConfig.EmitCamelCaseNames = true;
+
+            Plugins.Add(new SwaggerFeature());
 
             //Register all your dependencies: 
 
