@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Sign In";
+}
+
+<div class="row-fluid">
+    <div class="span8">
+       <form action="@Url.Content("~/api/auth/credentials")">
+			<span class="error-summary"></span>
+			<div class="clearfix">
+                <input class="input-xlarge" name="userName" type="text" placeholder="Username" />
+                <span class="help-inline"></span>
+			</div>
+			<div class="clearfix">
+                <input class="input-xlarge" name="password" type="password" placeholder="Password" />
+                <span class="help-inline"></span>
+			</div>
+			<div class="actions">
+			    <button class="btn" type="submit">Sign in</button>
+                or <a data-cmd="unregistered">register</a>
+			</div>
+        </form>
+    </div>
+    <div class="span4">
+        <input type="button" class="btn"  value="login by QQ"/>
+    </div>
+</div>

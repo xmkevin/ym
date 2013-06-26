@@ -8,7 +8,6 @@ using System.Web;
 
 namespace YM.Web.UI.Controllers
 {
-    [ProfilingActionFilter]
     public class YMController : ServiceStackController
     {
 
